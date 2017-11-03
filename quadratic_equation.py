@@ -1,5 +1,5 @@
 from math import sqrt
-def get_roots(a, b, c):   # Функция вычисляет корни квадратного уравнения
+def get_roots(a, b, c):  
     discriminant = b ** 2 - 4 * a * c
     
     if discriminant >= 0:
